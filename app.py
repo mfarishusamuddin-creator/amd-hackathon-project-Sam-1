@@ -73,3 +73,10 @@ if submitted:
         with st.spinner("Bridging the sound..."):
             result = get_pronunciation_bridge(native_lang, target_lang, sound_or_word)
         st.markdown(result)
+
+st.divider()
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.caption("Built by **[Your Name]** for AMD Developer Hackathon: ACT II — Track 3 (Unicorn)")
+with col2:
+    st.caption("🔗 [GitHub](https://github.com/USERNAME/REPO)")
