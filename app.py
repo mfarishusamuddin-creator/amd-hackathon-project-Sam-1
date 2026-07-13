@@ -75,8 +75,4 @@ if submitted:
         st.markdown(result)
 
 st.divider()
-col1, col2 = st.columns([3, 1])
-with col1:
-    st.caption("Built by **Faris H** for AMD Developer Hackathon: ACT II — Track 3 (Unicorn)")
-with col2:
-    st.caption("🔗 [GitHub](https://github.com/USERNAME/REPO)")
+st.caption("Built by Faris H — AMD Developer Hackathon: ACT II, Track 3")
